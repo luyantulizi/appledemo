@@ -1,0 +1,43 @@
+.anapple{
+  width:80%;
+  height:80px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  position:relative;
+  margin-bottom:10px;
+  figure{
+    margin-left:0;
+    img{
+      float:left;
+      width:50px;
+      height:50px;
+    }
+    hgroup{
+      float:left;
+      h3{
+        margin:0;
+        padding:0;
+        font-size:20px;
+        color:#60aad3;
+        font-weight:normal;
+      }
+      p{
+        margin-top:-35px;
+        float:left;
+        font-size:6px;
+        color:#d4e0ee;
+      }
+    }
+  }
+  button{
+    width:25%;
+    height:40%;
+    position:absolute;
+    top:30%;
+    right:10px;
+    border-radius:8px;
+    background-color:#006699;
+    color:#fff;
+    border:none;
+  }
+}
